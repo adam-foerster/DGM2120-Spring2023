@@ -1,2 +1,2 @@
-# adam-foerster.com
+# adam-foerster.github.io
 
