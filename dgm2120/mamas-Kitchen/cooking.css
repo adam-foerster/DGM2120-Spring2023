@@ -42,7 +42,7 @@ nav ul{
 }
 
 nav a{
-    font-size: 1.1rem;
+    font-size: 3rem;
     text-decoration: none;
     font-weight: 700;
     color: var(--text);
@@ -81,6 +81,7 @@ main p{
 
 main ol{
     padding: .5rem 3vw;
+    margin: 1rem 0;
     background-color: var(--background);
 }
 
@@ -91,11 +92,13 @@ main ol li{
 main dl {
     color: var(--special);
     font-weight: 700;
+    margin: 1rem 0;
 }
 
 main dd{
     color: var(--hover);
     font-size: .9rem;
+    padding: 0 1rem;
 }
 
 main ul{
@@ -104,7 +107,8 @@ main ul{
 
 main ul li{
     line-height: 125%;
-    margin-bottom: .5rem;
+    margin-bottom: .5rem 0;
+    padding: 0;
     font-size: .9rem;
 
 }
