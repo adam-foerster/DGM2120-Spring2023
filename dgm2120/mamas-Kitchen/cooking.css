@@ -1,0 +1,141 @@
+:root{
+    --special: #63492e;
+    --hover: #63503b;
+    --background: #e6c8a8;
+    --design: #e0a668;
+    --other: #ad8050;
+    --text: #323232;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/*header stuff */
+header{
+    background-color: var(--background);
+    padding: 1rem 2vw;
+}
+header h1{
+    margin: 0;
+    color: var(--text);
+    font-weight: 200;
+}
+header p{
+    color: var(--text);
+    letter-spacing: .5px;
+}
+
+/*nav stuff*/
+nav{
+    background-color: var(--design);
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+
+nav a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--text);
+    display: block;
+    padding: 1vw 2vw;
+}
+
+nav li.active a{
+    background-color: var(--text);
+    color: var(--design)
+}
+
+nav a:hover{
+    color: var(--other);
+}
+
+/*main stuff*/
+main{
+    padding: 0 2vw;
+}
+main h1{
+    color: var(--special);
+    font-weight: 200;
+}
+
+main h2{
+    color: var(--hover);
+    margin-bottom: .2rem;
+    font-weight: 200;
+}
+
+main p{
+    color: var(--text);
+    margin: 0 0 .3rem 0;
+}
+
+main ol{
+    padding: .5rem 3vw;
+    background-color: var(--background);
+}
+
+main ol li{
+    color: var(--text);
+}
+
+main dl {
+    color: var(--special);
+    font-weight: 700;
+}
+
+main dd{
+    color: var(--hover);
+    font-size: .9rem;
+}
+
+main ul{
+    list-style-type: circle;
+}
+
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+
+}
+
+main address{
+    font-style: normal;
+    background-color: var(--background);
+    padding: .5rem;
+    width: 12.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--special);
+}
+
+main a{
+    color: var(--special);
+    text-decoration: none;
+}
+
+main a:hover{
+    color: var(--design)
+}
+
+/*footer*/
+footer{
+    background-color: var(--background);
+    text-align: center;
+    color: var(--text);
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+
+footer a{
+    color: var(--text);
+}
