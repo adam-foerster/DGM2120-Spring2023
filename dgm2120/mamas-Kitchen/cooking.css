@@ -107,7 +107,7 @@ main ul{
 
 main ul li{
     line-height: 125%;
-    margin-bottom: .5rem 0;
+    margin-bottom: .5rem;
     padding: 0;
     font-size: .9rem;
 
@@ -128,7 +128,7 @@ main a{
 }
 
 main a:hover{
-    color: var(--design)
+    color: var(--design);
 }
 
 /*footer*/
