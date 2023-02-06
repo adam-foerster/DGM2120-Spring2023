@@ -65,7 +65,7 @@ main p{
 }
 
 main ol{
-    padding: .5rem 3vw;
+    padding: 0.5rem 3vw;
     background-color: #efefef;
 }
 
@@ -102,7 +102,7 @@ main a{
 }
 
 main a:hover{
-    color:rgb(239, 0, 24);
+    color: rgb(239, 0, 24);
 }
 
 /*footer*/
