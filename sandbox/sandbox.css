@@ -1,0 +1,19 @@
+h1{
+    color: #ff0000;
+    color: rgb(255,0,0);
+    color: rgb(155,155,0);
+    text-indent: 30px;
+    font-size: xx-small;
+}
+
+.img{
+
+    margin:0rem;
+    padding:0rem;
+    border: solid black 1px;
+}
+
+div{
+    display:flex;
+    gap: 1rem;
+}
