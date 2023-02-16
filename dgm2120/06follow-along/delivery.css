@@ -90,6 +90,26 @@ main a {
     font-size: .8rem;
 }
 
+.myForm fieldset{
+    border: 1px solid #43a0b6;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myForm legend{
+    color:#43a0b6;
+    font-size: .8rem;
+}
+.myForm label{
+    margin: .5rem;
+}
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel]{
+    display:block
+}
+
+
+
+
 
 /* footer stuff here */
 footer {
