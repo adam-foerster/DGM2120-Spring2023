@@ -7,5 +7,5 @@ ok.addEventListener(click, () => {
 })
 
 reset.addEventListener(click, () => {
-    dialog.className = 'open'
+    dialog.showModal();
 })
