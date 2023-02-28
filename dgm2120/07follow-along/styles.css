@@ -1,3 +1,9 @@
+/*prevent problems with different browsers*/
+*{
+    box-sizing: border-box;;
+}
+
+
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -7,6 +13,8 @@ body {
 /* header stuff here */
 header {
     padding: 1rem 2vw;
+    display: flex;
+    align-items: flex-end;
 }
 header h1 {
     margin: 0;
@@ -20,37 +28,70 @@ header p {
     font-size: 1.22rem;
     letter-spacing: 2px;
 }
+header div{
+    padding-left: 2vw;
+}
 
 /* navigation stuff here */
-nav {
-    border-top: solid 1px #E0E6E6;
+/*Small Screen*/
+@media only screen and (max-width: 800px){
+    nav ul{
+        margin: 0;
+        padding: 0 2vw;
+        list-style: none;
+    }
+
+    nav a{
+        display: block;
+        padding: .8rem;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: solid 1px #aaa;
+        color: #8b5022;
+    }
+
+    nav .active a{
+        background-color: #8b5022;
+        background-image: linear-gradient(to bottom, #8b5022, #653a19);
+        color: white;
+    }
+
+}/*end of the media query*/
+
+/*big screens*/
+@media only screen and (min-width: 801px){
+    nav {
+        border-top: solid 1px #E0E6E6;
+        
+    }
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+        display: flex;
+    }
+    nav a {
+        display: block;
+        padding: 1.2rem 1rem .3rem 1rem;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #8C501B;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: solid 2px #fff;
+    }
     
-}
-nav ul {
-    margin: 0;
-    padding: 0 2vw;
-    list-style-type: none;
-    display: flex;
-}
-nav a {
-    display: block;
-    padding: 1.2rem 1rem .3rem 1rem;
-    font-size: 1rem;
-    text-decoration: none;
-    color: #8C501B;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    border-bottom: solid 2px #fff;
-}
-
-nav .active a {
-    border-bottom: solid 2px #8b5022;
-}
-nav a:hover {
-    color: #000;
-}
-
+    nav .active a {
+        border-bottom: solid 2px #8b5022;
+    }
+    nav a:hover {
+        color: #000;
+    }
+        
+}/*end of the media query*/
 
 /* main stuff here */
 main {
@@ -77,6 +118,17 @@ main a {
     color: #9c3335;
 }
 
+.angelohero{
+    width: 100%;
+    margin: 0;
+    
+}
+.angelohero{
+    width: 100%;
+    height: auto;
+}
+
+
 .angeloGallery {
     display: flex;
     flex-wrap: wrap;
@@ -97,6 +149,9 @@ main a {
     height: auto;
 }
 
+.angeloGallery img:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
 
 
 
@@ -111,4 +166,9 @@ footer {
 }
 footer a {
     color: #8b5022;
+}
+
+header, nav, main, footer{
+    max-width: 64rem;
+    margin: 0 auto;
 }
