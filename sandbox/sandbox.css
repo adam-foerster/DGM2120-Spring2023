@@ -17,3 +17,9 @@ div{
     display:flex;
     gap: 1rem;
 }
+body{
+    font-size: 12px;
+}
+#test{
+    font-size: .75em;
+}
