@@ -269,6 +269,37 @@ div.gallery img:hover{
     margin: 1rem 0 1rem 1vw;
 }
 
+
+table.lunch{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.lunch th{
+    background-color: var(--special);
+    color: white;
+    padding: .5rem 2vw;
+    text-align: left;
+}
+
+table.lunch td{ 
+    color: var(--text);
+    padding: .4rem 2vw;
+}
+
+table.lunch tr:nth-child(odd){
+    background-color: rgba(210,146,84,.2);
+  
+}
+
+table.lunch tr:hover{
+    background-color: rgba(60,60,60,.1);
+}
+
+table.lunch a{
+    color: darkblue;
+}
+
 /*footer*/
 footer{
     background-color: var(--background);
@@ -283,7 +314,7 @@ footer a{
     color: var(--text);
 }
 
-header, nav, main, footer{
+main{
     max-width: 80rem;
     margin: 0 auto;
 
