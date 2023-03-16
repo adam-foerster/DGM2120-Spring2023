@@ -140,8 +140,30 @@ ul li {
     font-size: .8rem;
 }
 
+table.our-activities{
+    width: 100%;
+    border-collapse: collapse;
+}
 
+table.our-activities th{
+    background-color: #3179af;
+    color: white;
+    padding: .5rem 2vw;
+    text-align: left;
+}
 
+table.our-activities td{
+    color: #54691f;
+    padding: .4rem 2vw;
+}
+
+table.our-activities tr:nth-child(odd){
+    background-color: #f7f7f7;
+}
+
+table.our-activities tr:hover{
+    color: rgba(84, 105, 31, 0.2rem)
+}
 
 /* footer stuff here */
 footer {
