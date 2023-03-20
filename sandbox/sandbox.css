@@ -23,3 +23,14 @@ body{
 #test{
     font-size: .75em;
 }
+
+ul{
+    list-style-image: url(../dgm2120/mamas-Kitchen/breakfast_img/mamasLogo.png);
+}
+
+table{
+    border-collapse: collapse;
+    /* border:none; */
+    /* table-border: 0px; */
+    /* margin: 0px; */
+}
