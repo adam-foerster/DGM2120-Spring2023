@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+/* Variables */
+:root{
+
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    width: 100vw;
+}
+
+/*header stuff */
+header{
+    background-color: var();
+    padding: 1rem 2vw;
+    display: flex;
+    align-items: flex-end;
+}
+header h1{
+    margin-bottom: 0.3rem;;
+    color: var();
+    font-weight: 100;
+}
+header p{
+    color: var();
+    letter-spacing: .5px;
+    margin: 0;
+}
+header div{
+    padding: 0 1rem;
+}
+
+/*nav stuff*/
+/* small Screen*/
+@media only screen and (max-width: 800px){
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    nav a{
+        display: block;
+        padding: .8rem;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: solid 1px var();
+        color: var();
+    }
+
+    nav .active a{
+        background-color: var();
+        background-image: linear-gradient(to bottom, var(), var());
+        color: var();
+    }
+
+}/*end of the media query*/
+
+/*big screens*/
+@media only screen and (min-width: 801px){
+    nav{
+        background-color: varvar();
+    }
+    
+    nav ul{
+        list-style-type: none;
+        padding: 0 2vw;
+        margin: 0;
+        display: flex;
+    }
+    
+    nav a{
+        font-size: 1.5rem;
+        text-decoration: none;
+        font-weight: 700;
+        color: var();
+        display: block;
+        padding: 1vw 2vw;
+    }
+    
+    nav li.active a{
+        background-color: var();
+        color: var();
+    }
+    
+    nav a:hover{
+        color: var();
+    }
+        
+}/*end of the media query*/
+
+/*main stuff*/
