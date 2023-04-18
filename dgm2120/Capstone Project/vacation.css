@@ -219,10 +219,6 @@ div{
     margin: 1rem;
 }
 
-div img{
-    /* padding: .6rem 1rem; */
-}
-
 div label a{
     text-decoration: none;
     color: var(--blue);
