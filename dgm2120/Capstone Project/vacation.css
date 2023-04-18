@@ -228,13 +228,10 @@ div label a{
     color: var(--blue);
 }
 
-#buynow{
-    background-color: var(--highlights);
-    color: var(--background);
-    margin: .5rem;
-    padding: .5rem;
-    font-weight: 700;
-    text-decoration: none;
+div fieldset div{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 /* Contact Page */
