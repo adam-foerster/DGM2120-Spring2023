@@ -30,7 +30,7 @@
           <a href="index.html">Trips 4 You</a>
         </li>
         <li>
-          <a href="gallery.html">Gallery</a>
+          <a href="gallery.html">Destination Gallery</a>
         </li>
         <li  class="active">
           <a href="contact.html">Contact Us</a>
@@ -42,7 +42,59 @@
     </nav>
 <!-- Main -->
     <main>
+      
+        <h1 id="submitions">Submissions</h1>
+        <p>Reach out to us to apply for </p>
+            <form method="get" class="myForm" action="thanks.html">
         
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label>First Name* <input type="text" name="fname" required></label>
+                    <label>Last Name* <input type="text" name="lname" required ></label>
+                    <label>Cell Number* <input type="tel" name="phone" placeholder="987-555-1234" required></label>
+                    <label>Email* <input type="email" name="email" placeholder="example@example.com" required></label>
+                </fieldset>
+            
+            <!-- Destination Options-->
+                    <fieldset>
+                        <legend>Destination*</legend>
+                        <label> Travel Locations </label>
+                        <label><input type="radio" name="method" value="tokyo">Tokyo</label>
+                        <label><input type="radio" name="method" value="englad">England</label>
+                        <label><input type="radio" name="method" value="hawii">Hawii</label>
+                    </fieldset>
+            
+            <!-- -->
+                    <fieldset>
+                        <legend>Preffered Amenities</legend>
+                        <label><input type="checkbox" name="pool" value="chosen">Pool</label>
+                        <label><input type="checkbox" name="spa" value="chosen">Spa</label>
+                        <label><input type="checkbox" name="workout" value="chosen">Workout</label>
+                        <label><input type="checkbox" name="laundry" value="chosen">Laundry</label>
+                        <label><input type="checkbox" name="beach" value="chosen">Beach Access</label>
+                        <label>Other <input type="text" name="other" placeholder="other"></label>
+
+            
+                        <!-- Price Range-->
+                      <label> Price Rage
+                        <select name="price" required>
+                            <option value="">Please Select</option>
+                            <option value="cheap">4000</option>
+                            <option value="mid">8000</option>
+                            <option value="expensive">7500</option>
+                        </select>
+                    </label>
+                </fieldset>
+
+            
+                    <label> Other Needs or Comments
+                        <textarea name="instructions"></textarea>
+                    </label>
+            
+                    <input type="submit" value="Submit">
+                    </form>  
+
+
     </main>
 <!-- Footer -->
 <footer>
